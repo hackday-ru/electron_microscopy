@@ -1,0 +1,149 @@
+@font-face{
+	font-family: "light";
+	src: url(light.ttf);
+}
+html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style-type: none;
+}
+a, a:hover{
+	text-decoration: none;
+	outline: none;
+}
+body{
+	display: block;
+	margin: 0;
+	padding: 0;
+/*	width: 720px;
+	margin-right: auto;
+	margin-left: auto;*/
+	background-color: #97deff;
+}
+#home, #options, #statistic{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 700px;
+}
+.content{
+	padding-top: 100px;
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p{
+	font-family: light, "open-sans";
+	font-size: 45px;
+	color: #fff;
+}
+label{
+	font-family: light;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-left:45px;
+	padding-right: 45px;
+	font-size: 20px;
+	background-color: #97deff;
+	border:1px solid #fff;
+	border-radius: 10px;
+	color: #fff;
+}
+label:hover{
+	background-color: #fff;
+	color: #97deff;
+}
+#settings ul{
+	padding-left: 0;
+}
+#options .content{
+	width: 100%;
+	height: 700px;	
+}
+#options .content div{
+	display:inline-block;
+}
+#settings{
+	width: 25%;
+	float: left;
+}
+#settings ul{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	height: 700px;
+}
+#settings li{
+	text-align: center;
+	border-top: 2px solid #fff; 
+	width: 100%;
+	height: 40%;
+}
+#settings .bin {
+	width: 100%;
+	background-color: #717ece;
+}
+#settings img{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	display: block;
+	width: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+#settings .name{
+	position: relative;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: light;
+	font-size: 30px;
+	cursor: pointer;
+}
+#settings .bin_type, #settings .noize_type{
+	position: relative;
+	opacity: 0;
+	background-color: #717ece;
+	cursor: pointer;
+	padding: 5px;
+	font-family: light;
+	color: rgb(217,217,217);
+	border: 2px solid rgb(217,217,217);
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;	
+}
+#settings .noize_type{
+	background-color: #c6c6c6;
+}
+#settings .noize{
+	background-color: #c6c6c6;
+}
+#settings .stat{
+	height: 20%;
+	background-color: #aeaeae;
+}
+#settings .stat img{
+	margin-top: 30px;
+}	
+#photo{
+	width: 70%;
+	height: 700px;
+	margin: 0;
+	padding: 0;
+	border-left: 2px solid #fff;
+}
+#photo img{
+	box-shadow: 5px 5px;
+	position: relative;
+	top: 20%;
+	left: 20%;
+	width: 500px;
+	border: 3px solid #000;
+}

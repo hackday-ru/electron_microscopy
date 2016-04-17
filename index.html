@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lactis</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="request.min.js"></script>
+</head>
+<body>
+	<div id="home">
+		<div class="content">
+			<img src="icon.png" width="100">
+			<p>Lactis - ЭТО цифровая обработка и анализ изображений для электронной микроскопии</p>
+			<label for="picture">Выбрать фото</label>
+			<input type="file" id="picture" style="opacity: 0;"></input>
+			<label id="uploadBtn">Загрузить</label>
+		</div>
+	</div>
+	<div id="options">
+		<div class="content">
+			<div id="settings">
+				<ul>
+					<li class="bin">
+						<img src="square.png">
+						<span class="name">Бинаризация</span>
+						<button id="yani" class="bin_type">Метод Янни</button>
+						<br>
+						<button id="pik" class="bin_type">Пик Гистограммы</button>
+					</li>
+					<li class="noize">
+						<img src="music.png">
+						<span class="name">Фильтрация</span>
+						<button id="max" class="noize_type">Max</button>
+						<button id="med" class="noize_type">Median</button>
+						<br>
+						<button id="min" class="noize_type">Min</button>
+						<button id="con" class="noize_type">CONTOUR</button>
+					</li>
+					<li class="stat">
+						<img src="stat.png">
+						<span  class="name">Статистика</span>
+					</li>
+				</ul>
+			</div>
+			<div id="photo">
+				<button id="reset">Сбросить</button>
+				<img id src="">
+			</div>
+		</div>
+	</div>
+	<div id="statistic">
+	</div>
+</body>
+</html>
